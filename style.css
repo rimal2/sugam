@@ -1,0 +1,28 @@
+body {
+    background: #1937b2;
+    padding-top: 50px;
+  }
+  
+  #chatroom {
+    padding: 30px;
+    border: 1px solid lightgrey;
+   background-image:url(UdVPCN.webp);
+   background-repeat: contain;
+  }
+  
+  .date {
+    color: #b3b3b3;
+  }
+  
+  #messages {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid lightgrey;
+  }
+h1{
+    background-color: aqua;
+    border: 2px solid yellow;
+}  
+*{
+  border: 5 px solid red;
+}
