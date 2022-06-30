@@ -25,7 +25,7 @@ const refreshChat = () => {
         const content = message.content;
         const author = message.author;
         const minutesAgo = Math.round((new Date() - new Date(message.created_at)) / 60000);
-        const fullMessage = `<li>${message.content}  by [${author}]</li>`;
+        const fullMessage = `<li>${message.content}   [${author}]</li>`;
         listOfMessages.insertAdjacentHTML("afterbegin", fullMessage);
       });
     });
